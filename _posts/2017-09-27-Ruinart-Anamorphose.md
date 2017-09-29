@@ -1,11 +1,11 @@
 ---
 layout: post
-title: Dior Eyes
-subtitle: Dior
-preview: http://targz.fr/digitaslabparis.com/img/doir_eyesv2/01_cover.jpg
+title: Ruinart Anamorphose
+subtitle: Ruinart
+preview: https://www.digitaslbi.com/globalassets/work/ruinart/desktop_anamorphose_1.jpg
 ---
 
-![](http://targz.fr/digitaslabparis.com/img/doir_eyesv2/01_cover.jpg)
+![](https://www.digitaslbi.com/globalassets/work/ruinart/desktop_anamorphose_1.jpg)
 
 
 **BACKGROUND**

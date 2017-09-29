@@ -9,9 +9,13 @@
       <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
 
-    <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/style.css" />
+    <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/css/default.css" />
     <link rel="alternate" type="application/rss+xml" title="{{ site.name }} - {{ site.description }}" href="{{ site.baseurl }}/feed.xml" />
+    <script src="https://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
+    <script src="https://masonry.desandro.com/masonry.pkgd.js"></script>
+    <script src="https://imagesloaded.desandro.com/imagesloaded.pkgd.js"></script>
 
+    </script>
     <!-- Created with Jekyll Now - http://github.com/barryclark/jekyll-now -->
   </head>
 
@@ -47,5 +51,15 @@
     </div>
 
     {% include analytics.html %}
+
+    <script>
+      var $grid = $('.grid').imagesLoaded( function() {
+        $grid.masonry({
+          itemSelector: '.grid-item',
+          percentPosition: true,
+          columnWidth: '.grid-sizer'
+        });
+      });
+    </script>
   </body>
 </html>
