@@ -25,13 +25,6 @@ body {
   color: $darkGray;
 }
 
-.container {
-  margin: 0 auto;
-  max-width: 740px;
-  padding: 0 10px;
-  width: 100%;
-}
-
 .grid {
   background: #DDD;
 }
@@ -56,12 +49,14 @@ body {
 
 .grid-item img {
   z-index: 0;
-
-  // display: block;
+  display: block;
   width: 100%;
 }
 
 .title-text {
+  position: absolute;
+  left: 15px;
+  top: 15px;
   z-index: 100;
   color: white;
 }
