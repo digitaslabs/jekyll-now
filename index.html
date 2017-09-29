@@ -8,7 +8,7 @@ layout: default
     <div class="grid-item">
       <a href="{{ site.baseurl }}{{ post.url }}">
         <article class="post">
-          <img src="{{ post.preview }}">
+          <img src="{{ post.preview }}" class="post-{{ forloop.index }}">
           <div class="title-text">
             <h1 class="title">{{ post.title }}</h1>
             <h2 class="subtitle">{{ post.subtitle }}</h1>

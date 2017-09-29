@@ -27,6 +27,7 @@ body {
 
 .grid {
   background: #DDD;
+  margin-left: 10px;
 }
 
 /* clear fix */
@@ -45,6 +46,8 @@ body {
 
 .grid-item {
   float: left;
+  padding: 0 10px 10px 0;
+
 }
 
 .grid-item img {
@@ -67,6 +70,9 @@ body {
   .grid-item {
     width: 100%;
   }
+}
+
+.post-1 {border-left: 8px solid $palette-color-1;}.post-2{border-left: 8px solid $palette-color-2;}.post-3{border-left: 8px solid $palette-color-3;}.post-4{border-left: 8px solid $palette-color-4;}.post-5{border-left: 8px solid $palette-color-5;}.post-6{border-left: 8px solid $palette-color-6;
 }
 //
 // h1, h2, h3, h4, h5, h6 {
