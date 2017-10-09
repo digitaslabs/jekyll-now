@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Ruinart Anamorphose
-subtitle: Ruinart
+title: Ruinart
+subtitle: Ruinart Anamorphose
 preview: https://www.digitaslbi.com/globalassets/work/ruinart/desktop_anamorphose_1.jpg
 type: project
 ---

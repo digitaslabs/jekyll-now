@@ -7,10 +7,10 @@ layout: default
   {% for post in site.posts %}
     <div class="grid-item">
       <a href="{{ site.baseurl }}{{ post.url }}">
-        <article class="post">
-          <img src="{{ post.preview }}" class="post-{{ forloop.index }}">
+        <article class="post" id="post-{{ forloop.index }}">
+          <img src="{{ post.preview }}">
           <div class="title-text">
-            <h1 class="title">{{ post.title }}</h1>
+            <h1 class="title">{{ post.title }}</h1></br>
             <h2 class="subtitle">{{ post.subtitle }}</h1>
           </div>
         </article>
