@@ -6,15 +6,27 @@ layout: default
   <div class="grid-sizer"></div>
   {% for post in site.posts %}
     <div class="grid-item">
+      {% if {{post.type}} == 'project' %}
       <a href="{{ site.baseurl }}{{ post.url }}">
-        <article class="post" id="post-{{ forloop.index }}">
-          <img src="{{ post.preview }}">
-          <div class="title-text">
-            <h1 class="title">{{ post.title }}</h1></br>
-            <h2 class="subtitle">{{ post.subtitle }}</h1>
+          <article class="post">
+            <img src="{{ post.preview }}"  style="border-left-color: rgb({{post.color.r}},{{post.color.g}},{{post.color.b}});">
+            <div class="title-text">
+              <h1 class="title" style="background-color: rgba({{post.color.r}},{{post.color.g}},{{post.color.b}},0.5);">{{ post.title }}</h1></br>
+              <h2 class="subtitle" style="background-color: rgba({{post.color.r}},{{post.color.g}},{{post.color.b}},0.5);">{{ post.subtitle }}</h1>
+            </div>
+          </article>
+      </a>
+      {% endif %}
+      {% if {{post.type}} == 'punchline' %}
+      <div class="punchline-container">
+        <article class="punchline">
+          <div class="punchline-text" style="border-left-color: rgb({{post.color.r}},{{post.color.g}},{{post.color.b}});">
+            {{post.text}}
           </div>
         </article>
-      </a>
+      </div>
+      {% endif %}
+
     </div>
   {% endfor %}
 </div>

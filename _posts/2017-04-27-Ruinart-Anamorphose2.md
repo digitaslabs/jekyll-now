@@ -4,6 +4,10 @@ title: Ruinart
 subtitle: Ruinart Anamorphose
 preview: https://www.digitaslbi.com/globalassets/work/ruinart/desktop_anamorphose_1.jpg
 type: project
+color:
+  r: 255
+  g: 5
+  b: 0
 ---
 
 ![](https://www.digitaslbi.com/globalassets/work/ruinart/desktop_anamorphose_1.jpg)

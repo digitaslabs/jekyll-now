@@ -57,6 +57,17 @@ body {
   width: 100%;
 }
 
+.grid-item .punchline {
+  padding: 100px;
+}
+
+.punchline-container {
+  width: 100%;
+  border-left-width: 6px;
+  border-left-style: solid;
+  border-left-color: $palette-color-1;
+}
+
 .title-text {
   position: absolute;
   left: 15px;
