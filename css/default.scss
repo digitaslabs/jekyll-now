@@ -19,6 +19,7 @@
 html {
   font-size: 150%;
   font-family: 'Futura', Helvetica, Bold;
+  text-rendering: optimizeLegibility; 
 }
 
 body {
@@ -118,9 +119,10 @@ body {
   margin: 0;
   color: $gray;
   cursor: pointer;
-  font-weight: bold;
   a {
     color: inherit;
+    font-weight: bold;
+    letter-spacing: 0.1em;
     font-size: 3vw;
     text-decoration: none;
   }

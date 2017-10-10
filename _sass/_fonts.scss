@@ -1,4 +1,24 @@
+
 @font-face {
-  font-family: 'Futura';
-  src: url('../fonts/Futura.ttc');
+   font-family: 'Futura';
+      src: url('../fonts/ttf/Futura-Bold.ttf');
+      src: url('../fonts/eot/Futura-Bold.eot') format('embedded-opentype');
+   font-weight: bold;
+   font-style: normal;
+}
+
+@font-face {
+   font-family: 'Futura';
+      src: url('../fonts/ttf/Futura-Medium.ttf');
+      src: url('../fonts/eot/Futura-Medium.eot') format('embedded-opentype');
+   font-weight: normal;
+   font-style: normal;
+}
+
+@font-face {
+   font-family: 'Futura';
+      src: url('../fonts/ttf/Futura-Book.OTF');
+      src: url('../fonts/eot/Futura-Book.eot') format('embedded-opentype');
+   font-weight: lighter;
+   font-style: normal;
 }

@@ -41,8 +41,8 @@
 
 .title-text {
   position: absolute;
-  left: 15px;
-  top: 15px;
+  left: 20px;
+  top: 14px;
   z-index: 100;
   color: white;
 }
@@ -68,6 +68,7 @@ img {
 
   .title-text {
       font-size: 0;
+      font-weight: normal;
   }
 
   .title, .subtitle {
@@ -79,14 +80,15 @@ img {
   .title {
     font-family: 'Futura', 'Helvetica', Medium;
     font-weight: bold;
-    font-size: 3vw;
+    font-size: 2.8vw;
     background-color: $palette-bg-color-1;
   }
 
   .subtitle {
     font-family: 'Futura', 'Helvetica', 'Book';
-    font-weight: normal;
+    font-weight: lighter;
     font-size: 2vw;
+    color: rgba(255, 255, 255, 0.5);
     background-color: $palette-bg-color-1;
   }
 }
