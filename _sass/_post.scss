@@ -1,6 +1,11 @@
 .grid {
   margin-left: $side-margin;
   margin-right: $side-margin - $grid-item-padding;
+  @include mobile {
+    margin-left: $side-margin*0.25;
+    margin-right: $side-margin*0.25 - $grid-item-padding;
+  }
+
 }
 
 /* clear fix */
@@ -14,7 +19,15 @@
 
 .grid-sizer,
 .grid-item {
-  width: 50%;
+  width: 33.333333%;
+  @media all and (max-device-width: 640px)
+  {
+    width: 100%;
+  }
+  @media (min-device-width: 640px) and (max-device-width: 1400px)
+  {
+    width: 50%;
+  }
 }
 
 .grid-item {
@@ -43,7 +56,6 @@
 .punchline-text {
   font-weight: bold;
   font-size: 2.5vw;
-  text-align: justify;
 }
 
 .title-text {
@@ -52,14 +64,6 @@
   top: 14px;
   z-index: 100;
   color: white;
-}
-
-@media all and (max-device-width: 480px)
-{
-  .grid-sizer,
-  .grid-item {
-    width: 100%;
-  }
 }
 
 img {
@@ -89,6 +93,10 @@ img {
     font-weight: bold;
     font-size: 2.8vw;
     background-color: $palette-bg-color-1;
+    @media (min-device-width: 1400px)
+    {
+      font-size: 2.3vw;
+    }
   }
 
   .subtitle {
@@ -97,5 +105,9 @@ img {
     font-size: 2vw;
     color: rgba(255, 255, 255, 0.5);
     background-color: $palette-bg-color-1;
+    @media (min-device-width: 1400px)
+    {
+      font-size: 1.7vw;
+    }
   }
 }
