@@ -2,8 +2,11 @@
 layout: default
 ---
 
-<article class="post">
-  <h1>{{ page.title }}</h1>
+<article class="post-article">
+  <div class="article-header">
+    <img src="{{ post.preview }}" alt="">
+    <h1>{{ page.title }}</h1>
+  </div>
 
   <div class="entry">
     {{ content }}

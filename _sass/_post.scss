@@ -1,3 +1,64 @@
+.grid {
+  margin-left: 10px;
+}
+
+/* clear fix */
+.grid:after {
+  content: '';
+  display: block;
+  clear: both;
+}
+
+/* ---- .grid-item ---- */
+
+.grid-sizer,
+.grid-item {
+  width: 50%;
+}
+
+.grid-item {
+  float: left;
+  padding: 0 10px 10px 0;
+
+}
+
+.grid-item img {
+  z-index: 0;
+  display: block;
+  width: 100%;
+}
+
+.grid-item .punchline {
+  padding: 100px;
+}
+
+.punchline-container {
+  width: 100%;
+  border-left-width: 6px;
+  border-left-style: solid;
+  border-left-color: $palette-color-1;
+}
+
+.title-text {
+  position: absolute;
+  left: 15px;
+  top: 15px;
+  z-index: 100;
+  color: white;
+}
+
+@media all and (max-device-width: 480px)
+{
+  .grid-sizer,
+  .grid-item {
+    width: 100%;
+  }
+}
+
+img {
+  max-width: 100%;
+}
+
 .post {
   img {
      border-left-width: 6px;
