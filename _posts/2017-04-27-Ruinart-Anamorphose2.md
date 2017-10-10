@@ -10,9 +10,6 @@ color:
   b: 0
 ---
 
-![](https://www.digitaslbi.com/globalassets/work/ruinart/desktop_anamorphose_1.jpg)
-
-
 **BACKGROUND**
 Dior is a very famous House in Fashion and Perfumes, known for the exceptional craftsmanship of its fashion collections, high-end perfumes and cosmetics. To strengthen the strong emotional link with Millennials fashionistas and key clients, Dior wanted to create an outstanding experience to explore the brand content. The main objective was to trigger the interest of their consumers for the perfume and make-up categories, while expressing the modernity of the brand.
 

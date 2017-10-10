@@ -1,5 +1,6 @@
 .grid {
-  margin-left: 10px;
+  margin-left: $side-margin;
+  margin-right: $side-margin - $grid-item-padding;
 }
 
 /* clear fix */
@@ -18,7 +19,7 @@
 
 .grid-item {
   float: left;
-  padding: 0 10px 10px 0;
+  padding: 0 $grid-item-padding $grid-item-padding 0;
 
 }
 
@@ -37,6 +38,12 @@
   border-left-width: 6px;
   border-left-style: solid;
   border-left-color: $palette-color-1;
+}
+
+.punchline-text {
+  font-weight: bold;
+  font-size: 2.5vw;
+  text-align: justify;
 }
 
 .title-text {
@@ -78,14 +85,14 @@ img {
   }
 
   .title {
-    font-family: 'Futura', 'Helvetica', Medium;
+    font-family: 'Futura';
     font-weight: bold;
     font-size: 2.8vw;
     background-color: $palette-bg-color-1;
   }
 
   .subtitle {
-    font-family: 'Futura', 'Helvetica', 'Book';
+    font-family: 'Futura';
     font-weight: lighter;
     font-size: 2vw;
     color: rgba(255, 255, 255, 0.5);

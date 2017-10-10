@@ -19,7 +19,7 @@
 html {
   font-size: 150%;
   font-family: 'Futura', Helvetica, Bold;
-  text-rendering: optimizeLegibility; 
+  text-rendering: optimizeLegibility;
 }
 
 body {
@@ -78,9 +78,16 @@ body {
   min-height: 1px;
 }
 
+.wrapper-masthead {
+  height: $header-height;
+  width: 100%;
+  position: fixed;
+  top: 0px;
+  z-index: 200;
+  background-color: rgba(255,255,255,0.9);
+}
 .masthead {
-  padding: 40px 0 45px 0;
-
+  padding: $side-margin 0 $side-margin 0;
   @include mobile {
     text-align: center;
   }
@@ -152,6 +159,10 @@ nav {
     width: 20px;
     height: auto;
   }
+}
+
+#main {
+ margin-top: $header-height;
 }
 
 @import "post";

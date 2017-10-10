@@ -6,7 +6,7 @@ layout: default
   <div class="grid-sizer"></div>
   {% for post in site.posts %}
     <div class="grid-item">
-      {% if {{post.type}} == 'project' %}
+      {% if post.type == 'project' %}
       <a href="{{ site.baseurl }}{{ post.url }}">
           <article class="post">
             <img src="{{ post.preview }}"  style="border-left-color: rgb({{post.color.r}},{{post.color.g}},{{post.color.b}});">
@@ -17,7 +17,7 @@ layout: default
           </article>
       </a>
       {% endif %}
-      {% if {{post.type}} == 'punchline' %}
+      {% if post.type == 'punchline' %}
       <div class="punchline-container">
         <article class="punchline">
           <div class="punchline-text" style="border-left-color: rgb({{post.color.r}},{{post.color.g}},{{post.color.b}});">
