@@ -68,6 +68,7 @@ body {
   height: 5px;
   display: block;
   background-color: #ad1c23;
+  width: 100%;
 }
 
 .bg_red { background-color: $palette-color-1} .bg_orange {background-color: $palette-color-2} .bg_yellow {background-color: $palette-color-3} .bg_light_green {background-color: $palette-color-4} .bg_light_blue {background-color: $palette-color-5} .bg_fuchsia {background-color: $palette-color-6}
@@ -204,5 +205,6 @@ nav {
 }
 
 @import "post";
+@import "article";
 @import "highlights";
 @import "svg-icons";

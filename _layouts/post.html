@@ -4,8 +4,12 @@ layout: default
 
 <article class="post-article">
   <div class="article-header">
-    <img src="{{ post.preview }}" alt="">
-    <h1>{{ page.title }}</h1>
+    <img src="{{ page.preview }}" alt="" style="border-left-color: rgb({{page.color.r}},{{page.color.g}},{{page.color.b}});">
+    <div class="title-text">
+      <h1 style="background-color: rgb({{page.color.r}},{{page.color.g}},{{page.color.b}});">{{ page.title }}</h1>
+      </br>
+      <h2 style="background-color: rgb({{page.color.r}},{{page.color.g}},{{page.color.b}});">{{ page.subtitle }}</h1>
+    </div>
   </div>
 
   <div class="entry">

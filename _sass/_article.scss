@@ -1,0 +1,36 @@
+.post-article {
+  .article-header {
+    font-size: 0;
+
+    img {
+      width: 100%;
+      border-left-width: 12px;
+      border-left-style: solid;
+      border-left-color: $palette-color-1;
+    }
+
+    .title-text {
+      margin-left: 4%;
+      margin-top: -4%;
+      position: relative;
+    }
+
+    h1, h2 {
+      display: inline-block;
+      padding: 0 1% 0 1%;
+      line-height: 1.4;
+    }
+
+    h1 {
+      font-weight: bold;
+      font-size: 3vw;
+    }
+
+    h2 {
+      margin-top: -1px;
+      font-weight: lighter;
+      font-size: 2vw;
+      color: rgba(255, 255, 255, 0.5);
+    }
+  }
+}
