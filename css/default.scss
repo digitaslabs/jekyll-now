@@ -85,7 +85,7 @@ body {
   top: 0px;
   z-index: 200;
   background-color: rgba(255,255,255,0.9);
-  @media (max-device-width:480px) {
+  @media (max-device-width: 640px) {
     height: $header-height*1.75;
     position: absolute;
   }
