@@ -1,31 +1,35 @@
 @font-face {
    font-family: 'Gotham';
-      src: url('../assets/fonts/ttf/Gotham Rounded Book.otf');
-      src: url('../assets/fonts/eot/Gotham Rounded Book.eot') format('embedded-opentype');
+      src: local('Gotham Rounded'),
+      url('../assets/fonts/ttf/GothamRoundedBook.otf'),
+      url('../assets/fonts/eot/GothamRoundedBook.eot') format('embedded-opentype');
    font-weight: normal;
    font-style: normal;
 }
 
 @font-face {
    font-family: 'Futura';
-      src: url('../assets/fonts/ttf/Futura-Bold.ttf');
-      src: url('../assets/fonts/eot/Futura-Bold.eot') format('embedded-opentype');
+      src: local('Futura'),
+      url('../assets/fonts/ttf/Futura-Bold.ttf'),
+      url('../assets/fonts/eot/Futura-Bold.eot') format('embedded-opentype');
    font-weight: bold;
    font-style: normal;
 }
 
 @font-face {
    font-family: 'Futura';
-      src: url('../assets/fonts/ttf/Futura-Medium.ttf');
-      src: url('../assets/fonts/eot/Futura-Medium.eot') format('embedded-opentype');
+      src: local('Futura'),
+      url('../assets/fonts/ttf/Futura-Medium.ttf'),
+      url('../assets/fonts/eot/Futura-Medium.eot') format('embedded-opentype');
    font-weight: normal;
    font-style: normal;
 }
 
 @font-face {
    font-family: 'Futura';
-      src: url('../assets/fonts/ttf/Futura-Book.otf');
-      src: url('../assets/fonts/eot/Futura-Book.eot') format('embedded-opentype');
+      src: local('Futura'),
+      url('../assets/fonts/ttf/Futura-Book.otf'),
+      url('../assets/fonts/eot/Futura-Book.eot') format('embedded-opentype');
    font-weight: lighter;
    font-style: normal;
 }

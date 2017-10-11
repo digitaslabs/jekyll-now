@@ -36,6 +36,7 @@
 
   .entry {
     margin-top: 70px;
+    margin-bottom: 100px;
     display: block;
     margin-left: $side-margin;
     margin-right: $side-margin;
@@ -61,6 +62,7 @@
     }
 
     img {
+      max-width: 740px;
       padding-top: 40px;
       display: block;
       margin-left: auto;
