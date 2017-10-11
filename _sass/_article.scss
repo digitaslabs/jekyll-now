@@ -38,8 +38,8 @@
     margin-top: 70px;
     margin-bottom: 100px;
     display: block;
-    margin-left: $side-margin;
-    margin-right: $side-margin;
+    margin-left: $side-margin* 1.5;
+    margin-right: $side-margin* 1.5;
 
     p {
       font-size: 1.8vw;
