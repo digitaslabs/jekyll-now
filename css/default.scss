@@ -23,9 +23,7 @@ html {
 }
 
 body {
-	background: $white;
-  // font: 18px/1.4 $helvetica;
-  color: $darkGray;
+	color: $gray;
 }
 
 
@@ -36,11 +34,11 @@ body {
 
 // Specify the color of the selection
 ::-moz-selection {
-  color: $black;
+  color: black;
   background: $lightGray;
 }
 ::selection {
-  color: $black;
+  color: black;
   background: $lightGray;
 }
 

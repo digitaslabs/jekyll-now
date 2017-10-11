@@ -2,7 +2,7 @@
 layout: post
 title: T.O by Lipton
 subtitle: Lipton
-preview: https://raw.githubusercontent.com/digitaslabs/digitaslabs.github.io/master/images/articles/TO%20by%20Lipton/cover.jpg
+preview: https://raw.githubusercontent.com/digitaslabs/digitaslabs.github.io/master/assets/images/articles/TO%20by%20Lipton/cover.jpg
 type: project
 color:
   r: 255
