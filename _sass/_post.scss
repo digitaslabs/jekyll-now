@@ -66,15 +66,26 @@
   color: white;
 }
 
-img {
+img, video {
   max-width: 100%;
 }
 
 .post {
-  img {
+  position: relative;
+  top: 0;
+  left: 0;
+
+  img, video {
      border-left-width: 6px;
      border-left-style: solid;
      border-left-color: $palette-color-1;
+   }
+
+   video {
+     position: absolute;
+     top: 0;
+     left: 0;
+     z-index: 1;
    }
 
   .title-text {

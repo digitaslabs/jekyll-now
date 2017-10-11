@@ -10,6 +10,11 @@ layout: default
       <a href="{{ site.baseurl }}{{ post.url }}">
           <article class="post">
             <img src="{{ post.preview }}"  style="border-left-color: rgb({{post.color.r}},{{post.color.g}},{{post.color.b}});">
+            {% if post.video %}
+            <video src="{{ post.video }}" autoplay loop muted poster="{{ post.preview }}" style="border-left-color: rgb({{post.color.r}},{{post.color.g}},{{post.color.b}});">
+              <img src="{{ post.preview }}"  style="border-left-color: rgb({{post.color.r}},{{post.color.g}},{{post.color.b}});">
+            </video>
+            {% endif %}
             <div class="title-text">
               <h1 class="title" style="background-color: rgba({{post.color.r}},{{post.color.g}},{{post.color.b}},0.5);">{{ post.title }}</h1></br>
               <h2 class="subtitle" style="background-color: rgba({{post.color.r}},{{post.color.g}},{{post.color.b}},0.5);">{{ post.subtitle }}</h1>
