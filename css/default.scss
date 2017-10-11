@@ -123,8 +123,21 @@ body {
 }
 
 .site-info {
+  display: table;
   float: left;
-
+  height: 50px;
+  .info-container {
+    display: table-cell;
+    margin: auto;
+    vertical-align: middle;
+    @include mobile {
+      display: block;
+    }
+  }
+  @media (min-device-width: 1400px)
+  {
+    height: 100px;
+  }
   @include mobile {
     float: none;
     display: block;
@@ -144,8 +157,11 @@ body {
     color: inherit;
     font-weight: bold;
     letter-spacing: 0.1em;
-    font-size: 3vw;
+    font-size: 30px;
     text-decoration: none;
+    @media (min-device-width:1400px){
+      font-size: 50px;
+    }
     @include mobile {
       font-size: 20px;
     }
@@ -156,6 +172,9 @@ body {
   color: $gray;
   font-size: 16px;
   margin: 0;
+  @media (min-device-width:1400px){
+    font-size: 24px;
+  }
 
   @include mobile {
     font-size: 12px;
@@ -186,6 +205,10 @@ nav {
   }
   a {
     margin-left: 10px;
+    @include mobile {
+      margin-right: 10px;
+    }
+
   }
 }
 
