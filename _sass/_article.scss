@@ -1,4 +1,6 @@
 .post-article {
+  max-width: 1000px;
+  margin: 0 auto;
   .article-header {
     font-size: 0;
 
@@ -61,7 +63,7 @@
       color: $gray;
     }
 
-    img {
+    img, iframe {
       max-width: 740px;
       padding-top: 40px;
       display: block;

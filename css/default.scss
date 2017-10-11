@@ -23,6 +23,8 @@ html {
 }
 
 body {
+  max-width: 1400px;
+  margin: 0 auto;
 	color: $gray;
 }
 
@@ -62,7 +64,10 @@ body {
 // .masthead
 //
 
-.border-colors, .color {
+.row, .border-colors {
+  max-width: 1400px;
+}
+.color {
   height: 5px;
   display: block;
   background-color: #ad1c23;

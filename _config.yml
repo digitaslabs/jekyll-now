@@ -1,12 +1,18 @@
 #
 # This file contains configuration flags to customize your site
 #
+url: www.digitaslabsparis.com
+
+# Name of your title (displayed in meta data)
+title: Labs by Digitas LBi
 
 # Name of your site (displayed in the header)
 name: Labs
 
 # Short bio or description (displayed in the header)
-description: by DigitasLBi
+description:
+
+preview-image: https://digitaslabs.github.io/assets/images/labs-logo.png
 
 # URL of your avatar or profile pic (you could use your GitHub profile pic)
 avatar: https://avatars2.githubusercontent.com/u/32385414?v=4&s=400&u=c63b8a1ddd99dcbaddda2b5fcb394ff3ebb67481

@@ -1,68 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <title>{% if page.title %}{{ page.title }} – {% endif %}{{ site.name }} – {{ site.description }}</title>
-
-    {% include meta.html %}
-
-    <!--[if lt IE 9]>
-      <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-    <![endif]-->
-
-    <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/css/default.css" />
-    <link rel="alternate" type="application/rss+xml" title="{{ site.name }} - {{ site.description }}" href="{{ site.baseurl }}/feed.xml" />
-    <script src="https://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
-    <script src="https://masonry.desandro.com/masonry.pkgd.js"></script>
-    <script src="https://imagesloaded.desandro.com/imagesloaded.pkgd.js"></script>
-
-    </script>
-    <!-- Created with Jekyll Now - http://github.com/barryclark/jekyll-now -->
-  </head>
+  {% include head.html %}
 
   <body>
-    <div class="wrapper-masthead">
-      <div class="row borders-colors">
-        <div class="col-xs-2 color bg_red"></div>
-        <div class="col-xs-2 color bg_orange"></div>
-        <div class="col-xs-2 color bg_yellow"></div>
-        <div class="col-xs-2 color bg_light_green"></div>
-        <div class="col-xs-2 color bg_light_blue"></div>
-        <div class="col-xs-2 color bg_fuchsia"></div>
-      </div>
-      <div class="container">
-        <header class="masthead clearfix">
-          <a href="{{ site.baseurl }}/" class="site-avatar"><img src="../assets/images/labs-logo.png" /></a>
-
-          <div class="site-info">
-            <div class="info-container">
-              <h1 class="site-name"><a href="{{ site.baseurl }}/">{{ site.name }}</a></h1>
-              <p class="site-description">{{ site.description }}</p>
-            </div>
-          </div>
-
-          <nav class="header-links">
-            <a href="https://twitter.com/digitaslbi_labs" target="_blank"><img src="../assets/images/twitter-logo.png" alt="Twitter"></a>
-            <a href="https://vimeo.com/digitaslabsparis" target="_blank"><img src="../assets/images/vimeo-logo.png" alt="Vimeo"></a>
-            <a href="https://digitaslbi.com" target="_blank"><img src="../assets/images/digitas-logo.png" alt="Digitas LBi"></a>
-          </nav>
-        </header>
-      </div>
-    </div>
+    {% include header.html %}
 
     <div id="main" role="main" class="container">
       {{ content }}
     </div>
 
     {% include analytics.html %}
-
-    <script>
-      var $grid = $('.grid').imagesLoaded( function() {
-        $grid.masonry({
-          itemSelector: '.grid-item',
-          percentPosition: true,
-          columnWidth: '.grid-sizer'
-        });
-      });
-    </script>
   </body>
 </html>
