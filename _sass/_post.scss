@@ -66,10 +66,6 @@
   color: white;
 }
 
-img {
-  max-width: 100%;
-}
-
 .post {
   img {
      border-left-width: 6px;
@@ -91,9 +87,9 @@ img {
   .title {
     font-family: 'Futura';
     font-weight: bold;
-    font-size: 2.8vw;
+    font-size: 1rem;
     background-color: $palette-bg-color-1;
-    @media (min-device-width: 1400px)
+    @include mobile
     {
       font-size: 16px;
     }
@@ -102,11 +98,11 @@ img {
   .subtitle {
     font-family: 'Futura';
     font-weight: lighter;
-    font-size: 2vw;
+    font-size: 0.8rem;
     color: rgba(255, 255, 255, 0.5);
     background-color: $palette-bg-color-1;
-    @media (min-device-width: 1400px)
-    {
+    @include mobile {
       font-size: 12px;
+    }
   }
 }

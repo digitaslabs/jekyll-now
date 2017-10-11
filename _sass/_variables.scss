@@ -3,9 +3,14 @@
 // VARIABLES
 //
 
-$header-height: 110px;
+$header-height: 80px;
 $side-margin: 30px;
 $grid-item-padding: 10px;
+$avatar-width: 30px;
+$nav-image-width: $avatar-width*0.8;
+
+$mobile-header-height: $header-height*0.75;
+$mobile-avatar-width: $avatar-width*0.75;
 
 // Colors
 $blue: #4183C4;
