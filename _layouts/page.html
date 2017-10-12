@@ -3,10 +3,12 @@
   {% include head-article.html %}
 
   <body>
-    {% include header.html %}
-
+    {% include top-border.html %}
     <div id="main" role="main" class="container">
-      {{ content }}
+      {% include header.html %}
+      <div id="content" role="main" class="container">
+        {{ content }}
+      </div>
     </div>
 
     {% include analytics.html %}

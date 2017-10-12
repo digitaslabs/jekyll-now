@@ -15,8 +15,10 @@
     }
 
 
-    .title-text {
-      margin-left: 4%;
+    .article-title-text {
+      left: $side-margin;
+      z-index: 100;
+      color: white;
       margin-top: -40px;
       position: relative;
     }
@@ -44,8 +46,8 @@
     margin-top: 70px;
     margin-bottom: 100px;
     display: block;
-    margin-left: $side-margin* 1.5;
-    margin-right: $side-margin* 1.5;
+    margin-left: $side-margin;
+    margin-right: $side-margin;
 
     p, ul {
       font-size: 21px;
