@@ -87,7 +87,7 @@ body {
 
 .wrapper-masthead {
   height: $header-height;
-  max-width: $max-width;
+  // max-width: $max-width;
   width: 100%;
   position: fixed;
   top: 0px;
@@ -227,7 +227,7 @@ nav {
 }
 
 #main {
-  max-width: $max-width;
+  // max-width: $max-width;
   margin: 0 auto;
 }
 
