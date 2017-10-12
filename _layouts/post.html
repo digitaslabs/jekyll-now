@@ -4,7 +4,9 @@ layout: page
 
 <article class="post-article">
   <div class="article-header">
-    <img src="{{ page.preview }}" alt="" style="border-left-color: rgb({{page.color.r}},{{page.color.g}},{{page.color.b}});">
+    <div class="image-cropper" style="border-left-color: rgb({{page.color.r}},{{page.color.g}},{{page.color.b}});
+      background-image: url('{{ page.preview }}')">
+    </div>
     <div class="title-text">
       <h1 style="background-color: rgb({{page.color.r}},{{page.color.g}},{{page.color.b}});">{{ page.title }}</h1>
       </br>
