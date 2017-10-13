@@ -24,7 +24,7 @@
   {
     width: 100%;
   }
-  @media screen and (min-device-width: 640px) and (max-device-width: 1400px)
+  @include largescreen
   {
     width: 33.333333333%;
   }

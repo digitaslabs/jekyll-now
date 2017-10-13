@@ -93,8 +93,9 @@ body {
   top: 0px;
   z-index: 200;
   background-color: rgba(255,255,255,0.9);
-  @media screen and (max-device-width: 640px) {
-    height: $header-height*1.75;
+
+  @include mobile {
+    height: $header-height*2;
     position: absolute;
   }
 }
