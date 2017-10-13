@@ -93,7 +93,7 @@ body {
   top: 0px;
   z-index: 200;
   background-color: rgba(255,255,255,0.9);
-  @media (max-device-width: 640px) {
+  @media screen and (max-device-width: 640px) {
     height: $header-height*1.75;
     position: absolute;
   }
@@ -120,7 +120,7 @@ body {
     margin-top: 10px;
   }
 
-  // @media (min-device-width: 1400px)
+  // @media screen and (min-device-width: $min-device-width)
   // {
   //   width: 50px;
   //   height: 50px;
@@ -238,7 +238,7 @@ nav {
  //   margin-top: $header-height*1.5;
  // }
 
- @media (max-device-width: 640px)
+ @include mobile
  {
    margin-top: $header-height*2;
  }

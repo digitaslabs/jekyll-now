@@ -15,7 +15,7 @@ description: DigitasLBi Paris had been briefed by la maison Dior to breathe new 
 Dior is a very famous House in Fashion and Perfumes, known for the exceptional craftsmanship of its fashion collections, high-end perfumes and cosmetics. To strengthen the strong emotional link with Millennials fashionistas and key clients, Dior wanted to create an outstanding experience to explore the brand content. The main objective was to trigger the interest of their consumers for the perfume and make-up categories, while expressing the modernity of the brand.
 
 **THE BRIEF**
-DigitasLBi Paris had been briefed by la maison Dior to breathe new life into the customer experience. The Labs was chosen to design and manufacture Dior Eyes, the most innovative and ergonomic virtual reality helmet in the world. Users of the Dior Eyes will enjoy 360° visits in the backstage of the fashion show or iconic Dior places.
+DigitasLBi Paris had been briefed by la Maison Dior to breathe new life into the customer experience. The Labs was chosen to design and manufacture Dior Eyes, the most innovative and ergonomic virtual reality helmet in the world. Users of the Dior Eyes will enjoy 360° visits in the backstage of the fashion show or iconic Dior places.
 
 
 ![](http://targz.fr/digitaslabparis.com/img/doir_eyesv2/05.jpg)
