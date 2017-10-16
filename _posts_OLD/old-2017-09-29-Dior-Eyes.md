@@ -52,7 +52,7 @@ DigitasLbi Labs Paris and Dior sign here the finest combination of technological
 
 
 
-**CREDITS:**
+**Credits:**
 
 **Concept & Project Lead (DigitasLBi)**
 

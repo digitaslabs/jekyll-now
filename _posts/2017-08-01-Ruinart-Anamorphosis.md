@@ -13,25 +13,25 @@ description: With a pioneering spirit and an iconic heritage, Maison Ruinart has
 
 With a pioneering spirit and an iconic heritage, Maison Ruinart has worked with DigitasLBi Labs to offer a brand new experience in art fairs and pop-up stores: a contemporary reinterpretation of the anamorphosis showcasing an animation celebrating The Maison Ruinart, an animation made in collaboration with the artist Ugo Gattoni.
 
-## **Problem to solve**
+## Problem to solve
 
 How can we raise the visibility of The Maison Ruinart and make it attractive for a trendy and avant-gardist target aged of 30-45 years?
 
-## **Insight**
+## Insight
 
 Drinking champagne is an undisputed pleasure, but it is a gesture that represents heritage and history, far from an audacious and avant-garde experience.
 
-## **Concept**
+## Concept
 
 The Maison Ruinart have a unique history and heritage, but it is also always looking towards the future by conveying pioneering values: first house of champagne, first Rosé, first worldwide shippings ... We had a to create a tension between this pioneering heritage and avant-garde :
 **The avant-garde exists only if there's history**
 
-## **Creative Idea**
+## Creative Idea
 
 We immerse the visitor in an experience as much anchored in the history of art as on the territory of innovation. To create this tension we use the Ruinart bottle as the reflection core of an anamorphosis and a surrealist video animation created by a contemporary artist, displayed on a never seen before video display ... almost in levitation.
 
 
-## **Anamorphosis**
+## Anamorphosis
 
 Anamorphosis is a unique and multi-faceted anamorphic experience.
 It is at first, a point of attractiveness: the bottle "floats" on a glass support and reflects the light coming from below, like a lighthouse that is remarked from afar and which one wants to come closer; A beacon of beauty and lightness close to enchantment.
@@ -48,7 +48,7 @@ Finally, the story arise, the gesture of the artist is revealed. We discover in 
 
 ![image](/assets/articles-images/anamorphosis/ruinart3.jpg)
 
-## **How to make the magic happen**
+## How to make the magic happen
 
 The success of this installation was based on two key points: the reflection quality of the bottle and the fact of having an invisible and highly contrasted screen to diffuse the anamorphic animation of Ugo Gattoni.
 
@@ -65,10 +65,12 @@ The second challenge was to get an invisible and circular screen, while having a
 ![image](/assets/articles-images/anamorphosis/ruinart6.jpg)
 
 
+<iframe src="https://player.vimeo.com/video/220923466" width="770" height="433" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen class="uk-responsive-width"></iframe>
+
+[https://vimeo.com/220923466](https://vimeo.com/220923466)
 
 
-
-## **Results & awards**
+## Results & awards
 
 The first pilot was set up in Kyoto, Japan in May 2016, followed by a second pilot in Paris, France in June 2016. Finally, it was deployed in more than 10 places in more than 5 countries.
 
@@ -79,7 +81,7 @@ The first pilot was set up in Kyoto, Japan in May 2016, followed by a second pil
 - TopCom 2017 Design : Or
 
 
-## **Credits**
+## Credits
 - Labs Director: Julien Terraz
 - New media designer : Stéphane Allary
 - Creative director: Laurent Nuyen, Jey Ziegelmeyer

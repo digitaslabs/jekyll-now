@@ -52,7 +52,7 @@ DigitasLbi Labs Paris and Dior sign here the finest combination of technological
 
 [https://vimeo.com/235007077](https://vimeo.com/235007077)
 
-**CREDITS:**
+**Credits:**
 
 **Concept & Project Lead (DigitasLBi)**
 

@@ -25,27 +25,27 @@ End of 2013, Google released the Glass Development Kit (GDK) as a sneak peek for
 
 ## How it works ?
 
-**1. Say the magic word "ok glass" and in the menu of Glass voice actions say "Start timelapse"**
+###1. Say the magic word "ok glass" and in the menu of Glass voice actions say "Start timelapse"###
 
 ![image](/assets/articles-images/timelaps/article01.png)
 
 
-**2. Once the Glassware is launch you can choose between recording a video or watching existing videos**
+###2. Once the Glassware is launch you can choose between recording a video or watching existing videos###
 
 ![image](/assets/articles-images/timelaps/article02.png)
 
 
-**3. During the recording you can see the number of recorded frames and you can stop the recording by tapping the touchpad**
+###3. During the recording you can see the number of recorded frames and you can stop the recording by tapping the touchpad###
 
 ![image](/assets/articles-images/timelaps/article03.png)
 
 
-**4. If you choose to watch existing videos you can swipe forward and back to navigate in the timeline.**
+###4. If you choose to watch existing videos you can swipe forward and back to navigate in the timeline.###
 
 ![image](/assets/articles-images/timelaps/article04.png)
 
 
-**5. For each video, you can tap the touchpad to access menu to then play, delete or share (coming soon) the video.**
+###5. For each video, you can tap the touchpad to access menu to then play, delete or share (coming soon) the video.###
 
 ![image](/assets/articles-images/timelaps/article05.png)
 
@@ -61,13 +61,13 @@ End of 2013, Google released the Glass Development Kit (GDK) as a sneak peek for
 
 ## How to get started using Timelapse ?
 
-**1. Get Glass**
+###1. Get Glass###
 The hardest part, right? You can wait for the public release or Visit Google's Glass site to learn more.
-**2. Get Timelapse**
+###2. Get Timelapse###
 Download the APK application [here](http://targz.github.io/digitaslabparis.com/timelaps/TimeLapseGlass_v2.apk). This build is compatible with the XE20.1 update of the software. For now, you need to know how to sideload an APK, you can get more informations [here](http://developer.android.com/tools/help/adb.html#move).
-**3. Start Timelapse**
+###3. Start Timelapse###
 Start recording on Glass just by saying "OK Glass, start timelapse".
-**4. Watch your video**
+###4. Watch your video###
 You have two options : watch your videos right in the application, or get the videos using your regular Google Glass image manager.
 Credits :
 
