@@ -1,5 +1,4 @@
 .post-article {
-  max-width: 1000px;
   margin: 0 auto;
   .article-header {
     font-size: 0;
@@ -52,18 +51,22 @@
   }
 
   .entry {
+    margin-left: auto;
+    margin-right: auto;
     margin-top: 70px;
     margin-bottom: 100px;
     display: block;
     margin-left: $side-margin;
     margin-right: $side-margin;
+    max-width: 770px;
+
     @include mobile {
       margin-bottom: 50px;
       margin-top: 35px;
     }
 
     p, ul, ol {
-      font-size: 21px;
+      font-size: 18px;
       font-weight: lighter;
       line-height: 1.5em;
       min-width: 50%;
@@ -100,7 +103,7 @@
       }
     }
     h2 {
-      font-weight: bold;
+      // font-weight: bold;
     }
     h3 {
       padding-left: 15px;
@@ -108,7 +111,7 @@
 
     img, iframe {
       width: 100%;
-      max-width: 740px;
+      // max-width: 740px;
       padding-top: 40px;
       padding-bottom: 40px;
       display: block;

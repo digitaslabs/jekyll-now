@@ -119,7 +119,7 @@ body {
     float: none;
     display: block;
     margin: 0 auto;
-    margin-top: 10px;
+    margin-top: 25px;
   }
 
   // @media screen and (min-device-width: $min-device-width)
@@ -225,6 +225,25 @@ nav {
       margin-right: 10px;
     }
 
+  }
+}
+.footer {
+  width: 100%;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  text-align: center;
+
+  .footer-text {
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 50px;
+    text-decoration: none;
+    color: $gray;
+    display: inline-block;
+  }
+
+  .bottom-point {
+    color: black
   }
 }
 

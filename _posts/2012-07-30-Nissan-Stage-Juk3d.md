@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Nissan Stage Juk3d
+title: Stage Juk3d
 subtitle: Nissan
 preview: /assets/articles-images/juke/juke01.jpg
 type: project
