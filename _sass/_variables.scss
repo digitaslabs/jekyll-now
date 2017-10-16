@@ -15,9 +15,10 @@ $mobile-nav-image-width: $mobile-avatar-width*0.5;
 $max-width: 1400px;
 $min-device-width: 1200px;
 
-// Colors
-$blue: #4183C4;
-
+// Random colors
+$rand-red: random(256)-1;
+$rand-green: random(256)-1;
+$rand-blue: random(256)-1;
 // Grays
 $gray: #767574;
 $lightGray: #eee;

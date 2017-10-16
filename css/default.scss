@@ -248,7 +248,7 @@ nav {
 }
 
 #main {
-  // max-width: $max-width;
+  max-width: $max-width;
   margin: 0 auto;
 }
 
@@ -263,6 +263,36 @@ nav {
  {
    margin-top: $header-height*2;
  }
+}
+
+a {
+  -webkit-animation: rainbow 10s infinite;
+  -ms-animation: rainbow 10s infinite;
+  animation: rainbow 10s infinite;
+}
+@-webkit-keyframes rainbow{
+  0%{color: $palette-color-6;}
+  20%{color: $palette-color-1;}
+	40%{color: $palette-color-3;}
+	60%{color: $palette-color-4;}
+	80%{color: $palette-color-5;}
+	100%{color: $palette-color-6;}
+}
+@-ms-keyframes rainbow{
+  0%{color: $palette-color-6;}
+  20%{color: $palette-color-1;}
+	40%{color: $palette-color-3;}
+	60%{color: $palette-color-4;}
+	80%{color: $palette-color-5;}
+	100%{color: $palette-color-6;}
+}
+@keyframes rainbow{
+  0%{color: $palette-color-6;}
+  20%{color: $palette-color-1;}
+	40%{color: $palette-color-3;}
+	60%{color: $palette-color-4;}
+	80%{color: $palette-color-5;}
+	100%{color: $palette-color-6;}
 }
 
 @import "post";

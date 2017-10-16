@@ -1,10 +1,17 @@
 .post-article {
   margin: 0 auto;
+  margin-left: $side-margin;
+  margin-right: $side-margin;
+
   .article-header {
+    margin-left: -$side-margin;
+    margin-right: -$side-margin;
+
     font-size: 0;
     .image-cropper {
       width: 100%;
       height: 400px;
+      max-height: 400px;
       background-position: center center;
       background-repeat: no-repeat;
       background-size: cover;
@@ -56,8 +63,6 @@
     margin-top: 70px;
     margin-bottom: 100px;
     display: block;
-    margin-left: $side-margin;
-    margin-right: $side-margin;
     max-width: 770px;
 
     @include mobile {
@@ -70,12 +75,12 @@
       font-weight: lighter;
       line-height: 1.5em;
       min-width: 50%;
-      margin-bottom: 20px;
+      margin-bottom: 10px;
       font-family: 'Gotham';
       color: black;
       @include mobile {
         font-size: 17px;
-        margin-bottom: 10px;
+        margin-bottom: 5px;
       }
     }
     ul {
@@ -92,13 +97,13 @@
       display: block;
       font-size: 27px;
       margin-left: $side-margin;
-      margin-top: 40px;
-      margin-bottom: 40px;
+      margin-top: 30px;
+      margin-bottom: 20px;
       color: $gray;
       @include mobile {
         font-size: 21px;
-        margin-top: 20px;
-        margin-bottom: 20px;
+        margin-top: 15px;
+        margin-bottom: 10px;
         margin-left: $side-margin/2;
       }
     }
@@ -112,14 +117,14 @@
     img, iframe {
       width: 100%;
       // max-width: 740px;
-      padding-top: 40px;
-      padding-bottom: 40px;
+      padding-top: 20px;
+      // padding-bottom: 20px;
       display: block;
       margin-left: auto;
       margin-right: auto;
       @include mobile {
-        padding-top: 20px;
-        padding-bottom: 20px;
+        padding-top: 10px;
+        // padding-bottom: 10px;
       }
     }
 
