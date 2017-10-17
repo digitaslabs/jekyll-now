@@ -135,8 +135,8 @@ body {
   }
 
   .logo-white {
-    opacity: 0;
-    z-index: 10; 
+    opacity: 1;
+    z-index: 10;
   }
 }
 
@@ -168,23 +168,24 @@ body {
 .site-name {
   text-transform: uppercase;
   margin: 0;
-  @include mobile {
-      margin-top: 5px;
-  }
+  font-weight: bold;
+  font-size: larger;
+  font-size: 27px;
+  letter-spacing: 0.1em;
+  text-decoration: none;
   color: $gray;
   cursor: pointer;
-  a {
-    color: inherit;
-    font-weight: bold;
-    letter-spacing: 0.1em;
-    font-size: 27px;
-    text-decoration: none;
-    // @media (min-device-width:1400px){
-    //   font-size: 30px;
-    // }
-    @include mobile {
+
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  animation-duration: 3s;
+  animation-name: text-color;
+  animation-play-state: paused;
+  animation-delay: 500ms;
+
+  @include mobile {
+      margin-top: 5px;
       font-size: 20px;
-    }
   }
 }
 
@@ -252,9 +253,9 @@ nav {
  }
 }
 
-@import "animations";
 @import "footer";
 @import "post";
 @import "article";
 @import "highlights";
 @import "svg-icons";
+@import "animations";
