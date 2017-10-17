@@ -107,14 +107,17 @@
         font-size: 21px;
         margin-top: 15px;
         margin-bottom: 10px;
-        margin-left: $side-margin/2;
+        
       }
     }
     h2 {
-      font-size: 27px;
+      font-size: 30px;
+      margin-left: $side-margin;
     }
     h3 {
-      font-size: 23px;
+      font-size: 16px;
+      margin-left: 0;
+      
     }
 
     img, iframe {
@@ -147,6 +150,7 @@
     a {
       animation-delay: 2s;
     }
+
   }
   .date {
     font-weight: lighter;
