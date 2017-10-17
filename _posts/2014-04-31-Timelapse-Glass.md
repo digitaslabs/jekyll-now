@@ -13,17 +13,17 @@ description: Timelapse is a Google Glass application prototype to make point of 
 
 Timelapse is a Google Glass application prototype to make point of view time-lapse.
 
-## Idea
+## IDEA
 
 Go fast, fast, fast: nowadays this is our rhythm!
 So what is the solution to share a slice of our day? Timelapse + Google glass is the best equation.
 We really wanted to offer a solution for those who need to share a day story: a roadtrip, a skiing session, a marathon, a paragliding flight, or simply a walk ... By combining the Glass technology and the timelapse trick, we have developed a unique POV timelapse application: the limit is just your inspiration !
 
-## Technology
+## TECHNOLOGY
 
 End of 2013, Google released the Glass Development Kit (GDK) as a sneak peek for developers, GDK is a toolkit that allows to build rich application using camera, sensors and voice recognition. We made some R&D to setup a video timelapse application and we released a seamless application to take POV timelapses and to watch them right in the glass screen.
 
-## How it works ?
+## HOW IT WORKS ?
 
 ### 1. Say the magic word "ok glass" and in the menu of Glass voice actions say "Start timelapse"
 
@@ -51,7 +51,7 @@ End of 2013, Google released the Glass Development Kit (GDK) as a sneak peek for
 
 ![image](/assets/articles-images/timelaps/article06.png)
 
-## Demo
+## DEMO
 
 
 <iframe src="https://player.vimeo.com/video/90553046" width="770" height="433" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen class="uk-responsive-width"></iframe>
@@ -59,7 +59,7 @@ End of 2013, Google released the Glass Development Kit (GDK) as a sneak peek for
 
 [https://vimeo.com/90553046](https://vimeo.com/90553046)
 
-## How to get started using Timelapse ?
+## HOW TO GET STARTED USING TIMELAPSE ?
 
 ### 1. Get Glass
 The hardest part, right? You can wait for the public release or Visit Google's Glass site to learn more.
