@@ -21,9 +21,11 @@ The real challenge for us was to get data about the consumer and provide him a r
 - Facial recognition
 - Recommendation algorithm
 - Skeleton scanning
+
 ![image](/assets/articles-images/inspiration_corridor/1.jpg)
 
 > To be sure that the idea is possible, we create a prototype which was the proof of concept.
+
 ## BEHIND THE SCENES
 
 An infra-red Kinect camera analyses individual visitors as they enter the “Inspiration Corridor”, thanks to body scanning technology. A device equipped with QUIVIDI video analysis and PigData product recommendation scans the users and their outfits within 2 seconds and registers the collected data: gender, age group and style of clothes.

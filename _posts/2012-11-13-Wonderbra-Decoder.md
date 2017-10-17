@@ -39,18 +39,17 @@ The app also synchronizes with a YouTube video in HD thanks to a ultrasonic soun
 
 
 ## VIDEOS
-https://www.youtube.com/watch?v=dLBFkC2qvl0&vq=hd1080
-
+<iframe width="100%" height="420" src="https://www.youtube.com/embed/dLBFkC2qvl0" frameborder="0" allowfullscreen></iframe>
 
 [https://youtu.be/dLBFkC2qvl0](https://youtu.be/dLBFkC2qvl0)
 
 ## REWARD
 
-Fwa [mobile of the day](http://www.thefwa.com/mobile/wonderbra-decoder)
-Cristal Festival: Category DIGITAL & MOBILE CRISTAL [SAPPHIRE CRISTAL](http://www.europecristalfestival.com/wp-content/uploads/2012/12/winners/PL_DIGITAL%20EU.pdf)
+- Fwa [mobile of the day](http://www.thefwa.com/mobile/wonderbra-decoder)
+- [SAPPHIRE CRISTAL](http://www.europecristalfestival.com/wp-content/uploads/2012/12/winners/PL_DIGITAL%20EU.pdf) Category DIGITAL & MOBILE CRISTAL 
 
 ## TALKING ABOUT
 
-Featured by [Psfk.com](http://www.adverblog.com/2012/10/02/wonderbra-decoder/)
-Featured by [nydailynews.com](http://articles.nydailynews.com/2012-10-04/news/34264395_1_free-app-perfect-bra-lingerie)
-Featured by [adverblog.com](http://www.adverblog.com/2012/10/02/wonderbra-decoder/)
+- Featured by [Psfk.com](http://www.adverblog.com/2012/10/02/wonderbra-decoder/)
+- Featured by [nydailynews.com](http://articles.nydailynews.com/2012-10-04/news/34264395_1_free-app-perfect-bra-lingerie)
+- Featured by [adverblog.com](http://www.adverblog.com/2012/10/02/wonderbra-decoder/)
