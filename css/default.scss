@@ -129,8 +129,12 @@ body {
   img {
     width: 100%;
     height: 100%;
+    position: absolute;
   }
 
+  .logo-white {
+    opacity: 0;
+  }
 }
 
 .site-info {

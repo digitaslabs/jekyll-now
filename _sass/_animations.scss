@@ -30,20 +30,27 @@ a {
 
 @keyframes pulse1{
   0%{height: 0%; width: 0; background-color:$palette-bg-color-1; }
-  33%{height: 100%; width: 100%;}
-	38%{height: 0%; width: 0; background-color:$palette-bg-color-3;}
-	66%{height: 100%; width: 100%;}
-  74%{height: 0%; width: 0; background-color:$palette-bg-color-5;}
+  16%{height: 100%; width: 100%;}
+  32%{height: 100%; width: 100%;}
+	33%{height: 0%; width: 0; background-color:$palette-bg-color-3;}
+	49%{height: 100%; width: 100%;}
+  66%{height: 100%; width: 100%;}
+  67%{height: 0%; width: 0; background-color:$palette-bg-color-5;}
+  82%{height: 100%; width: 100%;}
   100%{height: 100%; width: 100%;}
 }
 
 @keyframes pulse2{
+  0%{height: 100%; width: 100%;}
   16%{height: 100%; width: 100%;}
-  21%{height: 0%; width: 0; background-color:$palette-bg-color-2; }
+  17%{height: 0%; width: 0; background-color:$palette-bg-color-4;}
+	33%{height: 100%; width: 100%;}
 	49%{height: 100%; width: 100%;}
-	54%{height: 0%; width: 0; background-color:$palette-bg-color-4;}
+  50%{height: 0%; width: 0; background-color:$palette-bg-color-6;}
+  67%{height: 100%; width: 100%;}
   82%{height: 100%; width: 100%;}
-  87%{height: 0%; width: 0; background-color:$palette-bg-color-6;}
+  83%{height: 0%; width: 0; background-color:$palette-bg-color-2; }
+  100%{height: 100%; width: 100%;}
 }
 
 .overlay {
@@ -59,12 +66,14 @@ a {
   border-radius: 50%;
   opacity: 0;
   animation-timing-function: ease-out;
+  animation-iteration-count: infinite;
+  animation-duration: 5s;
   // -webkit-transition: .3s ease;
   // transition: .3s ease;
 }
 
 .logo-overlay-1 {
-  animation: pulse1 5s infinite;
+  animation-name: pulse1;
   width: 0%;
   height: 0%;
   // display: none;
@@ -72,11 +81,17 @@ a {
 .logo-overlay-2 {
   width: 50%;
   height: 50%;
-  animation: pulse2 5s infinite;
+  animation-name: pulse2;
   // display: none;
 }
-.site-avatar:hover .overlay {
-  opacity: 1;
-  // width: 100%;
-  // height: 100%;
-}
+.site-avatar:hover {
+   .overlay {
+     opacity: 1;
+   }
+   .logo-gray {
+     opacity: 0;
+   }
+   .logo-white {
+     opacity: 1;
+   }
+ }
