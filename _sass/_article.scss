@@ -25,10 +25,11 @@
 
 
     .article-title-text {
+      display: inline;
       left: $side-margin;
       z-index: 100;
       color: white;
-      margin-top: -40px;
+      top: -40px;
       position: relative;
     }
 
