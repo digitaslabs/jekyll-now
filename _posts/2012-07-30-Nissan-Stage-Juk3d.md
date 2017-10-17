@@ -39,7 +39,7 @@ We get access to the Flash 11 prerelease and made some R&D to get the best of th
 
 ## Reward
 
-Fwa [site of the day](http://www.thefwa.com/site/nissan-stage-juk3d-experience/p=digitas-france-)
+Fwa [site of the day](https://thefwa.com/cases/nissan-stage-juk3d-experience)
 
 ## Talking about
 
