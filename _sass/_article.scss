@@ -130,6 +130,14 @@
         // padding-bottom: 10px;
       }
     }
+    iframe {
+      height: 433px;
+      @include mobile {
+        height:300px;
+      }
+      // position: relative;
+      // padding-bottom: 50%;
+    }
 
     blockquote {
       font-style: italic;
