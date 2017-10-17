@@ -64,15 +64,16 @@ body {
 // .masthead
 //
 
-.row, .border-colors {
+.row, .top-border {
   position: fixed;
   top: 0;
   width: 100%;
   z-index: 2000;
+  height: 5px;
   // max-width: 1400px;
 }
 .color {
-  height: 5px;
+  height: 100%;
   display: block;
   background-color: #ad1c23;
   width: 100%;
@@ -231,25 +232,6 @@ nav {
 
   }
 }
-.footer {
-  width: 100%;
-  margin-top: 50px;
-  margin-bottom: 50px;
-  text-align: center;
-
-  .footer-text {
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 50px;
-    text-decoration: none;
-    color: $gray;
-    display: inline-block;
-  }
-
-  .bottom-point {
-    color: black
-  }
-}
 
 #main {
   max-width: $max-width;
@@ -270,6 +252,7 @@ nav {
 }
 
 @import "animations";
+@import "footer";
 @import "post";
 @import "article";
 @import "highlights";

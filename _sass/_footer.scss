@@ -1,0 +1,36 @@
+.footer {
+  width: 100%;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  text-align: center;
+
+  .raw, .bottom-border {
+    position:absolute;
+    left:0;
+    right:0;
+    z-index: 2000;
+    height: 3px;
+    // max-width: 1400px;
+  }
+
+  .footer-description {
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-bottom: 30px;
+
+    padding-top: 50px;
+  }
+  .footer-text {
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 30px;
+    text-decoration: none;
+    color: $gray;
+    display: inline-block;
+    font-weight: bold;
+  }
+
+  .bottom-point {
+    color: black
+  }
+}
