@@ -3,7 +3,7 @@
   margin-right: $side-margin - $grid-item-padding;
   @include mobile {
     margin-left: $side-margin*0.25;
-    margin-right: $side-margin*0.25 - $grid-item-padding;
+    margin-right: $side-margin*0.25;
   }
 
 }
@@ -33,7 +33,9 @@
 .grid-item {
   float: left;
   padding: 0 $grid-item-padding $grid-item-padding 0;
-
+  @include mobile {
+    padding-right: 0;
+  }
 }
 
 .grid-item img {
