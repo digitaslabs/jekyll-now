@@ -110,6 +110,9 @@ body {
 }
 
 .header-left {
+  a {
+    text-decoration : none;
+  }
   cursor: pointer;
 }
 .site-avatar {
