@@ -5,7 +5,7 @@ layout: page
 <article class="post-article">
   <div class="article-header">
     <div class="image-cropper" style="border-left-color: rgb({{page.color.r}},{{page.color.g}},{{page.color.b}});
-      background-image: url('{{ page.preview }}')">
+      background-image: url('{% if page.cover %} {{ page.cover }} {% else %} {{ page.preview }} {% endif %}')">
     </div>
     <div class="article-title-text">
       <h1 style="background-color: rgb({{page.color.r}},{{page.color.g}},{{page.color.b}});">{{ page.title }}</h1>
