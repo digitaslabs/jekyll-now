@@ -6,6 +6,9 @@ layout: page
   <div class="article-header">
     <div class="image-cropper" style="border-left-color: rgb({{page.color.r}},{{page.color.g}},{{page.color.b}});
       background-image: url('{% if page.cover %} {{ page.cover }} {% else %} {{ page.preview }} {% endif %}')">
+      <div class="article-date">
+        Written on {{ page.date | date: "%B %e, %Y" }}
+      </div>
     </div>
     <div class="article-title-text">
       <h1 style="background-color: rgb({{page.color.r}},{{page.color.g}},{{page.color.b}});">{{ page.title }}</h1>
@@ -16,10 +19,6 @@ layout: page
 
   <div class="entry">
     {{ content }}
-  </div>
-
-  <div class="date">
-    Written on {{ page.date | date: "%B %e, %Y" }}
   </div>
   {% include disqus.html %}
 </article>

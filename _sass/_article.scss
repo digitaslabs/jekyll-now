@@ -56,6 +56,17 @@
         font-size: 23px;
       }
     }
+
+    .article-date {
+      position: absolute;
+      font-weight: lighter;
+      font-style: italic;
+      font-size: 15px;
+      display: inline;
+      right: $side-margin;
+      color: black;
+      bottom: -28px;
+    }
   }
 
   .entry {
@@ -157,12 +168,5 @@
       animation-delay: 2s;
     }
 
-  }
-  .date {
-    font-weight: lighter;
-    font-style: italic;
-    font-size: 15px;
-    margin-bottom: 10px;
-    margin-left: $side-margin;
   }
 }

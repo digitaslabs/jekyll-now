@@ -109,6 +109,9 @@ body {
   }
 }
 
+.header-left {
+  cursor: pointer;
+}
 .site-avatar {
   float: left;
   width: $avatar-width;
