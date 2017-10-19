@@ -5,9 +5,9 @@ subtitle: Prototype
 preview: /assets/articles-images/timelaps/cover.png
 type: prototype
 color:
-  r: 255
-  g: 0
-  b: 0
+  r: 230
+  g: 64
+  b: 36
 description: Timelapse is a Google Glass application prototype to make point of view time-lapse. Go fast, fast, fast ; nowadays this is our rhythm! So what is the solution to share a slice of our day? Timelapse + Google glass is the best equation.
 ---
 

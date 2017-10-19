@@ -40,10 +40,12 @@
       background: green;
       animation-iteration-count: 1;
     }
-    .title-mask { animation: 0.5s title-mask ease-out; }
+    .title-mask { animation: 0.5s title-mask ease-out;
+    -webkit-animation: 0.5s title-mask ease-out; -moz-animation: 0.5s title-mask ease-out; -o-animation: 0.5s title-mask ease-out; -ms-animation: 0.5s title-mask ease-out;
+    }
     .subtitle-mask {
       animation: 0.63s ease-out subtitle-mask;
-      // animation-delay: 300ms;
+      -webkit-animation: 0.63s ease-out subtitle-mask; -moz-animation: 0.63s ease-out subtitle-mask; -ms-animation: 0.63s ease-out subtitle-mask; -o-animation: 0.63s ease-out subtitle-mask;
     }
     .post img {
       -webkit-transform:scale(1.1); /* Safari and Chrome */

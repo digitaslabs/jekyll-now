@@ -21,6 +21,8 @@ a {
   animation-duration: 3s;
   animation-name: color;
   animation-play-state: paused;
+  -webkit-animation-timing-function: linear; -webkit-animation-iteration-count: infinite; -webkit-animation-duration: 3s; -webkit-animation-name: color; -webkit-animation-play-state: paused;
+  -ms-animation-timing-function: linear; -ms-animation-iteration-count: infinite; -ms-animation-duration: 3s; -ms-animation-name: color; -ms-animation-play-state: paused;
 }
 
 .overlay-1-container {
@@ -35,6 +37,8 @@ a {
   animation-iteration-count: infinite;
   animation-duration: 500ms;
   animation-play-state: paused;
+  -webkit-animation-timing-function: linear; -webkit-animation-iteration-count: infinite; -webkit-animation-duration: 500ms; -webkit-animation-name: size; -webkit-animation-play-state: paused;
+  -ms-animation-timing-function: linear; -ms-animation-iteration-count: infinite; -ms-animation-duration: 500ms; -ms-animation-name: size; -ms-animation-play-state: paused;
 }
 
 .logo-overlay-1 {
@@ -42,24 +46,30 @@ a {
   height: 100%;
   z-index: 5;
   opacity: 0;
-  // display: none;
 }
 .logo-overlay-2 {
   width: 100%;
   height: 100%;
   animation-delay: 500ms;
-  // display: none;
+  -webkit-animation-delay: 500ms;
+  -ms-animation-delay: 500ms;
 }
 .header-left:hover {
    .overlay {
      opacity: 1;
      animation-play-state: running;
+     -webkit-animation-play-state: running;
+     -ms-animation-play-state: running;
    }
    .overlay-1-container {
      animation-play-state: running;
+     -webkit-animation-play-state: running;
+     -ms-animation-play-state: running;
    }
    .site-name {
      animation-play-state: running;
+     -webkit-animation-play-state: running;
+     -ms-animation-play-state: running;
    }
    .logo-overlay-1 {
      opacity: 1;
@@ -113,6 +123,26 @@ a {
    83.3334%{ color:$palette-color-6;}
    100%{ color:$palette-color-6;}
  }
+ @-ms-keyframes title-mask {
+   0% { left: 0%; right: 100%; }
+   50% { left: 0%; right: 0%; }
+   100% { left: 100%; right: 0%; }
+ }
+ @-ms-keyframes subtitle-mask {
+   0% { left: 0%; right: 0%; }
+   50% { left: 0%; right: 0%; }
+   100% { left: 100%; right: 0%; }
+ }
+ @-webkit-keyframes title-mask {
+   0% { left: 0%; right: 100%; }
+   50% { left: 0%; right: 0%; }
+   100% { left: 100%; right: 0%; }
+ }
+ @-webkit-keyframes subtitle-mask {
+   0% { left: 0%; right: 0%; }
+   50% { left: 0%; right: 0%; }
+   100% { left: 100%; right: 0%; }
+ }
  @-ms-keyframes size{
    0%{ height: 0%; width: 0;}
    100%{ height: 100%; width: 100%;}
@@ -145,11 +175,11 @@ a {
    83.3334%{ color:$palette-color-6;}
    100%{ color:$palette-color-6;}
  }
- @-webkit-keyframes size{
+ @-webkit-keyframes size {
    0%{ height: 0%; width: 0;}
    100%{ height: 100%; width: 100%;}
  }
- @-webkit-keyframes color{
+ @-webkit-keyframes color {
    0%{ background-color:$palette-color-1; }
    16.6666%{ background-color:$palette-color-1;}
    16.6667%{ background-color:$palette-color-2;}
