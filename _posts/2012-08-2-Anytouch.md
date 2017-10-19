@@ -31,9 +31,6 @@ Nowadays, tactile is a notion widely associated with screens and that is usual. 
 Thanks to an advance technology based on the association of a 3D camera and a vision software designed by Ayotle, any object, no matter its size or its surface, can be made tactile and interactive. RFID tags or other types of technology aren’t necessary. The shapes, colors, and volume of objects, as well as the user’s gestures, can all be detected by AnyTouch.
 
 ![image](/assets/articles-images/anytouch/anytouch2.jpg)
-
-
-
 ![image](/assets/articles-images/anytouch/anytouch3.jpg)
 
 ## DEMO

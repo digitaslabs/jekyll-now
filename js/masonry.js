@@ -1429,7 +1429,7 @@ Outlayer.defaults = {
   resize: true,
   resizeContainer: true,
   // item options
-  transitionDuration: '0s',
+  transitionDuration: '0.2s',
   hiddenStyle: {
     opacity: 0,
     transform: 'scale(0.001)'

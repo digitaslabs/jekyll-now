@@ -48,7 +48,6 @@ End of 2013, Google released the Glass Development Kit (GDK) as a sneak peek for
 ### 5. For each video, you can tap the touchpad to access menu to then play, delete or share (coming soon) the video.
 
 ![image](/assets/articles-images/timelaps/article05.png)
-
 ![image](/assets/articles-images/timelaps/article06.png)
 
 ## DEMO
