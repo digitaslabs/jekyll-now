@@ -2,7 +2,8 @@
 layout: post
 title: Stage Juk3d
 subtitle: Nissan
-preview: /assets/articles-images/juke/juke01.jpg
+preview: /assets/articles-images/juke/cover-620.jpg
+cover: /assets/articles-images/juke/cover-1400.jpg
 type: project
 color:
   r: 188
