@@ -6,9 +6,9 @@ preview: /assets/articles-images/juke/cover-620.jpg
 cover: /assets/articles-images/juke/cover-1400.jpg
 type: project
 color:
-  r: 188
-  g: 0
-  b: 24
+  r: 195
+  g: 187
+  b: 162
 description: Nissan Stage Juk3d is the very first experiential platform using hardware accelerated 3D graphics rendering in Adobe Flash Player 11.
 ---
 

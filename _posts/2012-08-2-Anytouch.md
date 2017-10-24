@@ -6,9 +6,9 @@ cover: /assets/articles-images/anytouch/cover-1400.jpg
 preview: /assets/articles-images/anytouch/cover-620.jpg
 type: prototype
 color:
-  r: 113
-  g: 113
-  b: 113
+  r: 188
+  g: 0
+  b: 24
 description: AnyTouch is a prototype that can make tactile any objects. Nowadays, tactile is a notion widely associated with screens and that is usual. We wanted to make an innovative tactile experiments and immediatly thought to objects, and their great potential.
 ---
 
