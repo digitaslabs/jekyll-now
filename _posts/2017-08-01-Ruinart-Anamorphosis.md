@@ -2,7 +2,8 @@
 layout: post
 title: Ruinart Anamorphosis
 subtitle: Ruinart
-preview: /assets/articles-images/anamorphosis/cover.jpg
+preview: /assets/articles-images/anamorphosis/cover-620.jpg
+cover: /assets/articles-images/anamorphosis/cover-1400.jpg
 type: project
 color:
   r: 150

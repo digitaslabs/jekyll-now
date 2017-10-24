@@ -2,7 +2,8 @@
 layout: post
 title: Anytouch
 subtitle: Prototype
-preview: /assets/articles-images/anytouch/cover.jpg
+cover: /assets/articles-images/anytouch/cover-1400.jpg
+preview: /assets/articles-images/anytouch/cover-620.jpg
 type: prototype
 color:
   r: 113

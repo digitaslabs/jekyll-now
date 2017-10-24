@@ -2,7 +2,8 @@
 layout: post
 title: Inspiration Corridor
 subtitle: Klepierre
-preview: /assets/articles-images/inspiration_corridor/cover.jpg
+preview: /assets/articles-images/inspiration_corridor/cover-620.jpg
+cover: /assets/articles-images/inspiration_corridor/cover-1400.jpg
 type: project
 color:
   r: 20
