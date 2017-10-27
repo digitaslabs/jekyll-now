@@ -14,9 +14,6 @@ description: We put innovation at work into brand’s real-life and business. An
 
 preview-image: https://digitaslabs.github.io/assets/images/labs-logo-700.jpg
 
-# URL of your avatar or profile pic (you could use your GitHub profile pic)
-avatar: https://avatars2.githubusercontent.com/u/32385414?v=4&s=400&u=c63b8a1ddd99dcbaddda2b5fcb394ff3ebb67481
-
 #
 # Flags below are optional
 #
@@ -79,9 +76,13 @@ sass:
   style: :expanded # You might prefer to minify using :compressed
 
 # Use the following plug-ins
-gems:
+plugins:
   - jekyll-sitemap # Create a sitemap using the official Jekyll sitemap gem
   - jekyll-feed # Create an Atom feed using the official Jekyll feed gem
+  - jekyll-redirect-from
+
+whitelist:
+  - jekyll-redirect-from
 
 # Exclude these files from your production _site
 exclude:
