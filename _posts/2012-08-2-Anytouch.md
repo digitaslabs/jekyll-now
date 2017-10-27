@@ -10,6 +10,8 @@ color:
   g: 0
   b: 24
 description: AnyTouch is a prototype that can make tactile any objects. Nowadays, tactile is a notion widely associated with screens and that is usual. We wanted to make an innovative tactile experiments and immediatly thought to objects, and their great potential.
+redirect_from:
+  - /post/28555383766/anytouch
 ---
 
 ![image](/assets/articles-images/anytouch/anytouch1.jpg)

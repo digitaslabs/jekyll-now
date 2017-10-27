@@ -9,6 +9,8 @@ color:
   g: 208
   b: 57
 description: For its new campaign, Wonderbra sets digital at the core of its dispositive and renew with the brand’s fun thanks to a key feminine accessory ; the smartphone. Wonderbra Decoder, the very first lingerie campaign that presents the model… with clothes on!
+redirect_from:
+  - /post/35631218788/wonderbra-decoder
 ---
 
 Wonderbra, the lingerie brand with an emblematic product: the push up. But who knows that Wonderbra is not a one-product brand but offers a varied product range?
@@ -46,7 +48,7 @@ The app also synchronizes with a YouTube video in HD thanks to a ultrasonic soun
 ## REWARD
 
 - Fwa [mobile of the day](http://www.thefwa.com/mobile/wonderbra-decoder)
-- [SAPPHIRE CRISTAL](http://www.europecristalfestival.com/wp-content/uploads/2012/12/winners/PL_DIGITAL%20EU.pdf) Category DIGITAL & MOBILE CRISTAL 
+- [SAPPHIRE CRISTAL](http://www.europecristalfestival.com/wp-content/uploads/2012/12/winners/PL_DIGITAL%20EU.pdf) Category DIGITAL & MOBILE CRISTAL
 
 ## TALKING ABOUT
 
