@@ -6,9 +6,9 @@ preview: /assets/articles-images/anamorphosis/cover-620.jpg
 cover: /assets/articles-images/anamorphosis/cover-1400.jpg
 type: project
 color:
-  r: 150
-  g: 216
-  b: 242
+  r: 26
+  g: 131
+  b: 172
 description: With a pioneering spirit and an iconic heritage, Maison Ruinart has worked with DigitasLBi Labs to offer a brand new experience in art fairs and pop-up stores ; a contemporary reinterpretation of the anamorphosis showcasing an animation celebrating The Maison Ruinart, made in collaboration with the artist Ugo Gattoni.
 ---
 
