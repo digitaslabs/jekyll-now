@@ -1,7 +1,16 @@
-if( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) && path) {
+let changed = false;
+changeImage();
+window.onresize = changeImage;
+
+function changeImage() {
+  if(changed) {
+    return;
+  }
   let coverEl = document.getElementsByClassName('image-cropper')[0];
-  coverEl.style.backgroundImage = "url("+preview+")";
-  alert("mobile");
-} else {
-  alert("not mobile");
+  if(coverEl.offsetWidth > 620) {
+    let coverPath = document.getElementById('cover-path').innerHTML;
+    coverEl.style.backgroundImage = "url("+coverPath+")";
+    console.log("changed image");
+    changed = true;
+  }
 }
