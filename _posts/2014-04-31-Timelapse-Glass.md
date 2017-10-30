@@ -9,8 +9,7 @@ color:
   g: 64
   b: 36
 description: Timelapse is a Google Glass application prototype to make point of view time-lapse. Go fast, fast, fast ; nowadays this is our rhythm! So what is the solution to share a slice of our day? Timelapse + Google glass is the best equation.
-redirect_from:
-  - /post/81298600877/timelapse-glass
+permalink: /post/81298600877/timelapse-glass
 ---
 
 Timelapse is a Google Glass application prototype to make point of view time-lapse.

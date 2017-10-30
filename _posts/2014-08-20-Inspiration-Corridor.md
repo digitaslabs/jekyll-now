@@ -10,8 +10,7 @@ color:
   g: 42
   b: 102
 description: With Klepierre, DigitasLBi Labs created “Inspiration Corridor” to illustrate the ongoing revolution and future opportunities for unique shopping experiences in malls.
-redirect_from:
-  - /post/95269287719/inspiration-corridor
+permalink: /post/95269287719/inspiration-corridor
 ---
 
 With Klepierre, DigitasLBi Labs created “Inspiration Corridor” to illustrate the ongoing revolution and future opportunities for unique shopping experiences in malls.
