@@ -13,7 +13,7 @@ layout: post
 title:
 subtitle:
 preview: uri
-cover: uri
+cover: uri <!-- facultatif: ne sera chargé en JS que si la taille est plus large --!>
 type: project/prototype
 color:
   r:
@@ -34,3 +34,5 @@ color:
 ## Addons used :
 
 - [Masonry](https://masonry.desandro.com/)
+- [TweenLite](https://greensock.com/docs/TweenLite)
+- [Vimeo PlayerAPI](https://github.com/vimeo/player.js)
