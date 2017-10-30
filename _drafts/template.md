@@ -1,44 +1,48 @@
 ---
 layout: post
-title: Titre
-subtitle: Client
-preview: /assets/articles-images/titre_proj/cover-620.jpg
-cover: /assets/articles-images/titre_proj/cover-1400.jpg
+title: Template
+subtitle: Article
+preview: /assets/articles-images/template/cover-620.jpg
+cover: /assets/articles-images/template/cover-1400.jpg
 type: project
 color:
-  r: 255
-  g: 255
-  b: 255
+  r: 227
+  g: 197
+  b: 27
 description: Template pour la structure type, basé sur Dior Eyes V2
 permalink: /mon_chemin_personnalisé_facultatif
-vimeo-id: 000000000
+vimeo-id: 37328349
 ---
 
-## BACKGROUND
-This is the background context.
+Play riveting piece on synthesizer keyboard milk the cow yet touch water with paw then recoil in horror for sleep so drool for ask to go outside and ask to come inside and ask to go outside and ask to come inside so climb a tree, wait for a fireman jump to fireman then scratch his face. 
 
-## THE BRIEF
-This is the brief.
+## BRIEF
+Jump five feet high and sideways when a shadow moves cough hairball on conveniently placed pants yet put toy mouse in food bowl run out of litter box at full speed i am the best, but loves cheeseburgers chase red laser dot vommit food and eat it again.
 
-![image](/assets/articles-images/titre_proj/01.jpg)
+## INSIGHT
+Why must they do that relentlessly pursues moth and rub face on everything, so go into a room to decide you didn't want to be in there anyway.
+
+![image](/assets/articles-images/template/template-0001.jpg)
 
 
-## CHALLENGES
-**Challenge 1 :**
-C'est le premier challenge
-**Challenger 2 :**
-C'est le deuxieme challenge
+## CONCEPT
+Dont wait for the storm to pass, dance in the rain hiding behind the couch until lured out by a feathery toy if it smells like fish eat as much as you wish, but your pillow is now my pet bed but ask for petting stick butt in face
 
-![image](/assets/articles-images/titre_proj/02.jpg)
+![image](/assets/articles-images/template/template-0002.jpg)
+
+## CREATIVE IDEA
+Pushes butt to face. Drool spread kitty litter all over house so meow all night having their mate disturbing sleeping humans. My slave human didn't give me any food so i pooped on the floor meow meow
+
+![image](/assets/articles-images/template/template-0003.jpg)
 
 ## SOLUTION
-Tadam c'est la solution
+Find a way to fit in tiny box unwrap toilet paper but sit and stare so kitty loves pigs purr or sit on the laptop. Loved it, hated it, loved it, hated it go into a room to decide you didn't want to be in there anyway asdflkjaertvlkjasntvkjn (sits on keyboard) and meow to be let out and lounge in doorway yet instead of drinking water from the cat bowl, make sure to steal water from the toilet. If it fits, i sits hunt by meowing loudly at 5am next to human slave food dispenser but give attitude leave fur on owners clothes. Purr when being pet damn that dog but climb leg. 
 
 
-![image](/assets/articles-images/titre_proj/03.jpg)
-<iframe src="https://player.vimeo.com/video/[vimeo-id a renseigner]" width="770" height="433" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen class="uk-responsive-width"></iframe>
 
-[https://vimeo.com/[vimeo-id a renseigner]](https://vimeo.com/[vimeo-id a renseigner])
+<iframe src="https://player.vimeo.com/video/{{page.vimeo-id}}" width="770" height="433" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen class="uk-responsive-width"></iframe>
+
+[https://vimeo.com/{{page.vimeo-id}}](https://vimeo.com/{{page.vimeo-id}})
 
 
 ## CREDITS
