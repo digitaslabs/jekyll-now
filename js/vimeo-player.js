@@ -31,7 +31,10 @@ function makePlayerAppear() {
 
   TweenLite.to(overlayEl,animDuration/2, {right:"0%", onComplete:()=> {
     TweenLite.set(imageCropperEl, {backgroundImage:"none", backgroundColor:"black"});
-    player.play();
+    var iOS = /iPad|iPhone|iPod/.test(navigator.userAgent) && !window.MSStream;
+    if(!iOS) {
+      player.play();
+    }
     TweenLite.to(overlayEl,animDuration/2, {left:"100%", ease:Linear.easeOut}).delay(shiftDelay);
     TweenLite.to(articleTitleEl[0],animDuration/2, {top: "-5px"}).delay(shiftDelay);
     TweenLite.to(imageCropperEl ,animDuration/2, {paddingBottom:"55.75%", onComplete:()=> {
