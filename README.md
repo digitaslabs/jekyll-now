@@ -2,9 +2,9 @@
 
 ## Images sizes
 
-- **Article cover** : 1400px
+- **Article cover**(will be displayed if there is one, otherwise the preview picture will be used) : 1400px
 - **Article images** : 770px
-- **Homepage previews** : 620px
+- **Article preview**(displayed on the homepage) : 620px
 
 ## Posts header
 
