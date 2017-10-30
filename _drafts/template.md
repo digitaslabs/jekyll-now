@@ -2,7 +2,6 @@
 layout: post
 title: Titre
 subtitle: Client
-path: /assets/articles-images/titre_proj/
 preview: /assets/articles-images/titre_proj/cover-620.jpg
 cover: /assets/articles-images/titre_proj/cover-1400.jpg
 type: project
