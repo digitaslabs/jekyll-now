@@ -10,6 +10,7 @@ color:
   b: 57
 description: For its new campaign, Wonderbra sets digital at the core of its dispositive and renew with the brand’s fun thanks to a key feminine accessory ; the smartphone. Wonderbra Decoder, the very first lingerie campaign that presents the model… with clothes on!
 permalink: /post/35631218788/wonderbra-decoder
+vimeo-id: 50638914
 ---
 
 Wonderbra, the lingerie brand with an emblematic product: the push up. But who knows that Wonderbra is not a one-product brand but offers a varied product range?

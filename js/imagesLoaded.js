@@ -362,7 +362,6 @@ ImagesLoaded.prototype.progress = function( image, elem, message ) {
 
 ImagesLoaded.prototype.showTitles = function() {
   for (var i = 0; i < this.titles.length; i++) {
-      console.log(this.titles[i]);
       this.titles[i].style.opacity = 1;
   }
 }

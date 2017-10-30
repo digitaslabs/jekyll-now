@@ -10,8 +10,8 @@ color:
   g: 187
   b: 162
 description: Nissan Stage Juk3d is the very first experiential platform using hardware accelerated 3D graphics rendering in Adobe Flash Player 11.
-premalink:
-  - /post/28338430674/nissan-stage-juk3d
+premalink: /post/28338430674/nissan-stage-juk3d
+vimeo-id: 46621344
 ---
 
 Nissan Stage Juk3d is the very first experiential platform using hardware accelerated 3D graphics rendering in Adobe Flash Player 11.

@@ -6,11 +6,21 @@ layout: page
   <div class="article-header">
     <div class="image-cropper" style="border-left-color: rgb({{page.color.r}},{{page.color.g}},{{page.color.b}});
       background-image: url('{% if page.cover %} {{ page.cover }} {% else %} {{ page.preview }} {% endif %}')">
+      {% if page.vimeo-id %}<iframe class="article-video" src="https://player.vimeo.com/video/{{page.vimeo-id}}?color=FFFFFF&title=0&byline=0&portrait=0" width="100%" padding-bottom="0%" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+      <img class="play-video" src="/assets/images/play_icon_full.png" style="background-color: rgb({{page.color.r}},{{page.color.g}},{{page.color.b}});">
+      <div class="close-video" style="background-color: rgb({{page.color.r}},{{page.color.g}},{{page.color.b}});"><img src="/assets/images/close_icon_full.png" width="100%" height="100%"></div>
+      <div class="cover-overlay" style="background-color: rgb({{page.color.r}},{{page.color.g}},{{page.color.b}});"></div>
+      <script src="https://player.vimeo.com/api/player.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.20.3/plugins/CSSPlugin.min.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.20.3/easing/EasePack.min.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.20.3/TweenLite.min.js"></script>
+      <script src="/js/vimeo-player.js"></script>
+      {% endif %}
       <div class="article-date">
         Written on {{ page.date | date: "%B %e, %Y" }}
       </div>
     </div>
-    <div class="article-title-text">
+    <div class="article-title-text" id="article-title">
       <h1 style="background-color: rgb({{page.color.r}},{{page.color.g}},{{page.color.b}});">{{ page.title }}</h1>
       </br>
       <h2 style="background-color: rgb({{page.color.r}},{{page.color.g}},{{page.color.b}});">{{ page.subtitle }}</h1>
