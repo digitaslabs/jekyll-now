@@ -7,9 +7,9 @@
   <meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1.0'>
 
   <!-- Facebook meta -->
-  <meta property="og:title" content="{{ site.title }}"/>
+  <meta property="og:title" content="{{ page.title }}"/>
   <meta property="og:image" content="{{ site.url }}{{ page.preview}}"/>
-  <meta property="og:url" content="{{ site.url }}/{{ page.path }}"/>
+  <meta property="og:url" content="{{ site.url }}{{ page.url }}"/>
   <meta property="og:site_name" content="{{ site.title }}"/>
   <meta name="description" content="{{ page.description }}"/>
 
@@ -17,19 +17,19 @@
   <meta name="twitter:card" content="summary">
   <meta name="twitter:site" content="{{ site.footer-links.twitter }}">
   <meta name="twitter:creator" content="{{ site.footer-links.twitter }}">
-  <meta name="twitter:title" content="{{ site.title }}">
+  <meta name="twitter:title" content="{{ page.title }}">
   <meta name="twitter:description" content="{{ page.description }}">
   <meta name="twitter:image" content="{{ site.url }}{{ page.preview }}">
 
   <!-- GOOGLE + Share -->
-  <meta itemprop="name" content="{{ site.title }}">
+  <meta itemprop="name" content="{{ page.title }}">
   <meta itemprop="description" content="{{ page.description }}">
   <meta itemprop="image" content="{{ site.url }}{{ page.preview }}">
   <!--[if lt IE 9]>
     <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
   <![endif]-->
   {% include favicon.html %}
-  
+
   <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/css/default.css" />
   <link rel="alternate" type="application/rss+xml" title="{{ site.name }} - {{ site.description }}" href="{{ site.baseurl }}/feed.xml" />
   <script src="https://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>

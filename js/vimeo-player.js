@@ -1,5 +1,11 @@
-let animDuration = 0.5;
-let shiftDelay = 0.3;
+var animDuration = 0.5;
+var shiftDelay = 0.3;
+let isMobile = /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent);
+if(isMobile) {
+  animDuration /= 2;
+  shiftDelay = 0;
+}
+
 let iframe = document.getElementsByClassName('article-video')[0];
 let closeEL = document.getElementsByClassName('close-video')[0];
 let playEl = document.getElementsByClassName('play-video')[0];
