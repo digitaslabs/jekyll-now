@@ -1,2 +1,0 @@
-# La Poste VivaTech
-
