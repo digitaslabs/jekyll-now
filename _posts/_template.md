@@ -6,9 +6,9 @@ preview: /assets/articles-images/template/cover-620.jpg
 cover: /assets/articles-images/template/cover-1400.jpg
 type: project
 color:
-  r: 227
-  g: 197
-  b: 27
+  r: 254
+  g: 0
+  b: 12
 description: Template pour la structure type, basé sur Dior Eyes V2
 permalink: /mon_chemin_personnalisé_facultatif
 vimeo-id: 37328349
