@@ -2,9 +2,9 @@
 
 ## Images sizes
 
-- **Article cover** : 1400px
+- **Article preview** : 620px (displayed on the homepage)
 - **Article images** : 770px
-- **Homepage previews** : 620px
+- **Article cover** : 1400px (will be displayed if there is one, otherwise the preview picture will be used)
 
 ## Posts header
 
@@ -13,7 +13,7 @@ layout: post
 title:
 subtitle:
 preview: uri
-cover: uri
+cover: uri <!-- facultatif: ne sera chargé en JS que si la taille est plus large --!>
 type: project/prototype
 color:
   r:
@@ -34,3 +34,5 @@ color:
 ## Addons used :
 
 - [Masonry](https://masonry.desandro.com/)
+- [TweenLite](https://greensock.com/docs/TweenLite)
+- [Vimeo PlayerAPI](https://github.com/vimeo/player.js)
