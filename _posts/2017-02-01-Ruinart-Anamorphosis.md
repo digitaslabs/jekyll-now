@@ -81,6 +81,9 @@ The first pilot was set up in Kyoto, Japan in May 2016, followed by a second pil
 - One Show 2017 : Bronze
 - Cannes Lions 2017 : Shortlist.
 - TopCom 2017 Design : Or
+- LIA 2017 Design Award Motion Graphics : Gold 
+- LIA 2017 Design Award Product Design : Finalist 
+
 
 
 ## CREDITS
